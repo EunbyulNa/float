@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>float</title>
+    <style media="screen">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      ul.m1 {margin-bottom: 50px;
+
+      }
+
+
+      .m1 li {
+        width: 200px;
+        height: 50px;
+        border-bottom: 1px solid black;
+      }
+
+      .m1 li:last-child {
+        border-bottom: 0;
+      }
+      li a {
+       background-color: green;
+       display: block;
+       line-height: 50px;
+       text-decoration: none;
+       color: white;
+      }
+
+      li a:hover {
+        background-color: yellow;
+      }
+
+
+      ul.m2 {
+
+      }
+
+      .m2 li {
+        float: left;
+        width: 25%;
+        border-left: 1px solid black;
+        box-sizing: border-box;
+      }
+
+
+      .m2 li:last-child {
+        border-right: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+<h2>세로 메뉴 만들기</h2>
+<ul class="m1">
+  <li><a href="#">메뉴1</a></li>
+  <li><a href="#">메뉴2</a></li>
+  <li><a href="#">메뉴3</a></li>
+  <li><a href="#">메뉴4</a></li>
+</ul>
+
+<h2>가로 메뉴 만들기</h2>
+<ul class="m2">
+  <li><a href="#">메뉴1</a></li>
+  <li><a href="#">메뉴2</a></li>
+  <li><a href="#">메뉴3</a></li>
+  <li><a href="#">메뉴4</a></li>
+</ul>
+
+
+  </body>
+</html>
